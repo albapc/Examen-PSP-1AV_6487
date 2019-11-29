@@ -17,8 +17,9 @@ public class Ejercicio3_6487 extends Thread {
 
     public void run() {
 
-        //crearemos en total 3 hilos
-        while (cont <= 3) {
+        //crearemos en total 5 hilos, en vez de 3, para probar si se alternan realmente, si queremos crear 3 basta con modificar
+        //este bucle while
+        while (cont <= 5) {
             //numero de hilo
             cont++;
             Thread hilo = new Ejercicio3_6487("Hilo " + cont);
